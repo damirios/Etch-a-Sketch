@@ -32,34 +32,37 @@ input, button, textarea, select {
 /*Обнуление завершено */
 .wrapper {
     padding: 30px;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(45, 139, 16);
+    min-width: 100%;
+    min-height: 100%;
+    background-color: rgb(105, 113, 233);
     display: flex;
     justify-content: center;
     column-gap: 20px;
+    box-shadow: 0 0 15px rgb(26, 75, 11);
 }
 
 .container {
-    flex: 0 0 700px;
-    background-color: rgb(219, 94, 94);
-    height: 100%;
+    flex: 0 0 900px;
+    background-color: rgb(157, 87, 204);
+    height: 900px;
     padding: 35px 50px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 30px;
     box-shadow: 0 0 20px rgb(95, 16, 16);
 }
 
 .buttons {
     flex: 0 0 150px;
-    background-color: rgb(219, 94, 94);
+    height: 900px;
+    background-color: rgb(197, 53, 137);
     border-radius: 30px;
-    padding: 15px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    box-shadow: 0 0 20px rgb(95, 16, 16);
 }
 
 .container__info {
@@ -70,7 +73,9 @@ input, button, textarea, select {
 }
 
 .container__playbox {
-    flex: 0 0 600px;
+    flex: 0 0 650px;
+    width: 650px;
+    margin: 0 auto;
     border-radius: 15px;
     border: 3px solid rgb(52, 17, 177);
     overflow: hidden;
@@ -83,8 +88,8 @@ input, button, textarea, select {
     font-size: 50px;
     font-weight: 700;
     font-style: italic;
-    color: rgb(101, 228, 27);
-    text-shadow: 0 0 10px rgb(47, 105, 24);
+    color: rgb(50, 30, 105);
+    text-shadow: 0 0 3px rgb(11, 32, 2);
     text-align: center;
 }
 
@@ -92,6 +97,7 @@ button {
     border: 0;
     color: #fff;
     font-size: 30px;
+    font-weight: 700;
     text-align: center;
     background-color: rgb(23, 13, 165);
     width: 200px;

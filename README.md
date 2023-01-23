@@ -1,5 +1,5 @@
 # Etch a Sketch (Рисовалка)
-
+### Превью
 <p align="center">
 <img src="/preview.gif" width="680">
 </p>
